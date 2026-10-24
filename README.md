@@ -88,6 +88,10 @@ $$
 
 ---
 
+
+### Execution Demo
+![Scheduler Simulation Demo](./asset/scheduler.gif)
+
 ### Execution & Output Example
 
 컨텍스트 스위칭이 일어나는 순간 시스템의 상태 변화(BEFORE/AFTER)를 기록합니다.
@@ -113,20 +117,6 @@ $$
 
 ---
 
-### How to Run (Precompiled Binary)
-
-본 프로젝트는 소스코드를 제공하지 않으며, 컴파일된 실행 파일만 제공됩니다.
-
-```bash
-# Clone repository
-git clone [https://github.com/](https://github.com/)JuyoungSongasdf/portfolio.git
-cd portfolio
-
-# Execute binary (Linux/macOS)
-chmod +x ./bin/scheduler
-./bin/scheduler
-
-# Or Windows
-.\bin\scheduler.exe
-
-```
+### Build & Verification
+- **Build Command**: `gcc -Wall -ansi -o scheduler.exe scheduler.c -lm`
+- **Integrity Policy**: 소스코드 원본은 학교 명예 규정에 따라 비공개 처리되어 있으며, 위 데모 GIF를 통해 정상 빌드 및 실행 결과를 확인하실 수 있습니다.
