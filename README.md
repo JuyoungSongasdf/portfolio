@@ -255,6 +255,13 @@ The read request has been processed SUCCESSFULLY!
 ---
 
 ### Execution Demo
+프로그램 실행 시 디버깅 및 대량 테스트를 위한 2가지 스크린 출력 모드를 지원합니다:
+
+![Driver Simulation 0 ver Demo](./asset/driver_0.gif)
+- **`0` 입력 (Full Logging)**: 초기 요청부터 모든 파일 시스템 IPC 통신, DMA 설정, 디스크 헤드 동작 로그를 실시간으로 출력합니다 (위 데모 영상 기준).
+
+![Driver Simulation n ver Demo](./asset/driver_n.gif)
+- **`N` 입력 (Skip Logging / Fast-forward)**: 앞선 $N$개의 정상 처리 요청 출력을 생략하고 에러/경고 및 이후 요청만 빠르게 확인하여 장시간 스트레스 테스트 효율을 높입니다.
 
 ---
 
